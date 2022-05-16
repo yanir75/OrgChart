@@ -42,7 +42,7 @@ TEST_CASE("good input"){
         organization2.add_sub("test",add);
     }
     count=0;
-    for (auto it=organization2.begin_reverse_order(); it!=organization2.end_reverse_order(); ++it) {
+    for (auto it=organization2.begin_reverse_order(); it!=organization2.reverse_order(); ++it) {
         std::string add="tester";
         add+=count;
         if(count==100) {

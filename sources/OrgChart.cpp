@@ -172,6 +172,10 @@ std::string  &ariel::level_order_it::operator*() {
     return it[(unsigned long)ind]->data;
 }
 
+
+
+
+
 //std::ostream &ariel::operator<<(ostream &stream, const level_order_it<Node> &n) {
 //    stream << n.it[n.ind];
 //    return stream;
